@@ -1,0 +1,50 @@
+<html>
+    
+	<head>
+        <meta charset="UTF-8"></meta>
+        <title>Лабораторная работа 1.2 - Пример 2</title>
+		<script>
+			function showDescription(category){
+				var descField = document.getElementById("description");
+				switch(category){
+					case "A": descField.innerHTML = "Мотоциклы"; break;
+					case "B": descField.innerHTML = "Легковые автомобили"; break;
+					case "C": descField.innerHTML = "Грузовые автомобили"; break;
+					case "D": descField.innerHTML = "Автобусы"; break;
+					case "E": descField.innerHTML = "Автомобили с прицепом"; break;
+				}
+			}
+		</script>
+    </head>
+
+    <body>
+		<input id="A" type="radio" name="category" checked="true" onchange="showDescription('A')"/>
+		<label for="A">Категория А</label>
+		
+		<br>
+		
+		<input id="B" type="radio" name="category" checked="true" onchange="showDescription('B')"/>
+		<label for="B">Категория B</label>
+		
+		<br>
+		
+		<input id="C" type="radio" name="category" checked="true" onchange="showDescription('C')"/>
+		<label for="C">Категория C</label>
+		
+		<br>
+		
+		<input id="D" type="radio" name="category" checked="true" onchange="showDescription('D')"/>
+		<label for="D">Категория D</label>
+		
+		<br>
+		
+		<input id="E" type="radio" name="category" checked="true" onchange="showDescription('E')"/>
+		<label for="E">Категория E</label>
+		
+		<br>
+		
+		<div><b>Описание:</b></div>
+		<div id="description">Мотоциклы</div>
+	</body>
+
+</html>	
