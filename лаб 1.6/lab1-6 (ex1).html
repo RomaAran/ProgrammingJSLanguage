@@ -1,0 +1,37 @@
+<html>
+    	<head>
+        <meta charset="UTF-8"></meta>
+        <title>Лабораторная работа 1.6 - Кружок 1</title>
+		<script>
+            function draw(){
+                var canvas = document.getElementById("canvas");
+                var ctx = canvas.getContext("2d");
+                const centerX = canvas.width / 2;
+                const centerY = canvas.height / 2;
+                const radius = Math.min(centerX, centerY) - 10;
+                var n = 20;
+
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                for (let i = 0; i < n; i++) {
+                    const startAngle = (i * 2 * Math.PI) / n;
+                    const endAngle = ((i + 1) * 2 * Math.PI) / n;
+                
+                    ctx.beginPath();
+                    ctx.moveTo(centerX, centerY);
+                    ctx.arc(centerX, centerY, radius, startAngle, endAngle);
+                    ctx.closePath();
+                
+                    ctx.strokeStyle = 'black';
+                    ctx.lineWidth = 2;
+                    ctx.fillStyle = 'white';
+                    ctx.stroke();
+                    ctx.fill();
+                }
+            }
+        </script>
+    </head>
+
+    <body onload="draw();">
+        <canvas id="canvas" width="512" height="512"></canvas>
+    </body>
+</html>
