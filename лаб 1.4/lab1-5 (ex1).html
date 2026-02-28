@@ -1,0 +1,69 @@
+<html>
+    
+	<head>
+        <meta charset="UTF-8"></meta>
+        <title>Лабораторная работа 1.5 - Пример 1</title>
+		<script>
+			let isRed = true;
+			let isGreen = true;
+			let isBlue = true;
+			let speed = 500;
+			let timer;
+			let canvas;
+			let ctx;
+			
+			function draw(){
+				canvas = document.getElementById("canvas");
+				ctx = canvas.getContext("2d");
+			
+				let x = 100 + Math.floor(600 * Math.random());
+				let y = 100 + Math.floor(400 * Math.random());
+				let colorR = 0;				
+				let colorG = 0;
+				let colorB = 0;
+				
+				if (isRed){
+					colorR = Math.floor(255 * Math.random());
+				}
+				
+				if (isGreen){
+					colorG = Math.floor(255 * Math.random());
+				}
+				
+				if (isBlue){
+					colorB = Math.floor(255 * Math.random());
+				}
+				
+				ctx.fillStyle = 'rgb(' + colorR + ', ' + colorG + ', ' + colorB + ')';
+				ctx.fillRect(x,y,30,30);
+			}
+			
+			function colorChange(){
+				isRed = document.getElementById("red").checked;
+				isGreen = document.getElementById("green").checked;
+				isBlue = document.getElementById("blue").checked;
+			}
+			
+			function updateSpeed(value) {
+				speed = value;
+				clearInterval(timer);
+				timer = setInterval(draw, speed);
+			}
+			
+			function clearCanvas() {
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+			}
+		</script>
+    </head>
+
+    <body onload="updateSpeed(speed)"/>
+		<canvas id="canvas" width='800' height='600'></canvas>
+		
+		<label><input type="checkbox" id="red" onchange="colorChange()" checked="true"> R</label>
+        <label><input type="checkbox" id="green" onchange="colorChange()" checked="true"> G</label>
+        <label><input type="checkbox" id="blue" onchange="colorChange()" checked="true"> B</label>
+		<input type="range" min="50" max="1000" value="200" oninput="updateSpeed(this.value)">
+        <button onclick="clearCanvas()">Очистить</button>
+	</body>
+
+</html>

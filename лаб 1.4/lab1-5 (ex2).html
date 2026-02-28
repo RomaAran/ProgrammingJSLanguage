@@ -1,0 +1,73 @@
+<html>
+    
+	<head>
+        <meta charset="UTF-8"></meta>
+        <title>Лабораторная работа 1.5 - Пример 2</title>
+		<script>
+			function updateCorners(){
+                var n = document.getElementById("corners").value;
+                document.getElementById("cornersValue").innerText = n;
+            }
+            
+            function draw(){
+                var canvas = document.getElementById("canvas");
+                var ctx = canvas.getContext("2d");
+                ctx.clearRect(0,0, canvas.width, canvas.height);
+                
+                var n = parseInt(document.getElementById("corners").value);
+                var R = 170; // радиус описанной окружности
+                var ugol = 2*3.1415926/n; // 360/n
+                var alpha = 0; // Текущий угол
+                var shift = canvas.width/2; // Сдвиг, чтобы не уходить за поля
+                var curX = R, curY = 0; // Начальная точка (R;0)
+                var r = document.getElementById("red").value;
+                var g = document.getElementById("green").value;
+                var b = document.getElementById("blue").value;
+            
+                var color = "rgb(" + r + "," + g + "," + b + ")";
+                
+                var fillOption = document.querySelector('input[name="fillOption"]:checked').value;
+
+                ctx.beginPath();
+                ctx.moveTo(shift+curX, shift+curY);
+
+                for (var i=1; i<=n; i++){
+                    alpha += ugol;
+                    curX = Math.floor(R*Math.cos(alpha));
+                    curY = Math.floor(R*Math.sin(alpha));
+                    ctx.lineTo(curX+shift, curY+shift);
+                }
+
+                if (fillOption === "yes") {
+                    ctx.fillStyle = color;
+                    ctx.fill();
+                }
+                
+                ctx.strokeStyle = color;
+                ctx.stroke();
+            }
+        </script>
+    </head>
+
+    <body onload="updateCorners(); draw();">
+		<input id="red" type="range" min="0" max="255" value="255" oninput="draw()"/>Красный<br>
+        <input id="green" type="range" min="0" max="255" value="255" oninput="draw()"/>Зеленый<br>
+        <input id="blue" type="range" min="0" max="255" value="255" oninput="draw()"/>Синий<br>
+        
+        <br>Заливка:<br>
+
+        <input type="radio" name="fillOption" value="no" checked onclick="draw()">
+        Без заливки<br>
+
+        <input type="radio" name="fillOption" value="yes" onclick="draw()">
+        С заливкой<br><br>
+
+        Количество углов:
+        <input type="range" id="corners" min="3" max="20" value="5" oninput="updateCorners(); draw();">
+        <span id="cornersValue">5</span>
+        <br><br>
+
+        <canvas id="canvas" width="512" height="512"></canvas>
+	</body>
+
+</html>
