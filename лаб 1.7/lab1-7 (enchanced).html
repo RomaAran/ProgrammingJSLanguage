@@ -1,0 +1,122 @@
+<html>
+    	<head>
+        <meta charset="UTF-8"></meta>
+        <title>Лабораторная работа 1.7 - Ver. 2.0</title>
+		<script>
+            var x, y;
+            var startX, startY;
+            var size = 20;
+            var canvas;
+            var ctx;
+            var lives = 5;
+            var bgColor = "white";
+            var squareColor = "black";
+            
+            function init(){
+                canvas = document.getElementById('canvas');
+                ctx = canvas.getContext('2d');
+    
+                startX = (canvas.width - size) / 2;
+                startY = (canvas.height - size) / 2;
+
+                x = startX;
+                y = startY;
+
+                ctx.strokeStyle = 'black';
+                ctx.fillStyle = 'black';
+    
+                document.addEventListener('keydown', move);
+
+                updateLives();
+
+                document.getElementById("colorPicker").addEventListener("input", function(){
+                    if (lives <= 0) return;
+                    squareColor = this.value;
+                    eraseMode = false;
+                    redraw();
+                });
+
+                document.getElementById("sizeRange").addEventListener("input", function(){
+                    if (lives <= 0) return;
+                    size = parseInt(this.value);
+                    redraw();
+                });
+
+                document.getElementById("bgPicker").addEventListener("input", function(){
+                    if (lives <= 0) return;
+                    bgColor = this.value;
+                    redraw();
+                });
+
+                redraw();
+                document.getElementById("gameOver").innerText = "";
+            }
+
+            function move(event){
+                if (lives <= 0) return;
+
+                if (event.keyCode == 38) {y -= 5;}
+                if (event.keyCode == 40) {y += 5;}
+                if (event.keyCode == 39) {x += 5;}
+                if (event.keyCode == 37) {x -= 5;}
+
+                if (event.keyCode == 49){ squareColor = "red"; eraseMode = false; }
+                if (event.keyCode == 50){ squareColor = "green"; eraseMode = false; }
+                if (event.keyCode == 51){ squareColor = "blue"; eraseMode = false; }
+
+                if (event.keyCode == 83) {size = 10;}
+                if (event.keyCode == 77) {size = 20;}
+                if (event.keyCode == 66) {size = 30;}
+
+                if (x < 0 || y < 0 || x + size > canvas.width || y + size > canvas.height){
+                    lives--;
+                    updateLives();
+
+                    x = startX;
+                    y = startY;
+
+                    if (lives <= 0){
+                        document.getElementById("gameOver").innerText = "GAME OVER";
+                        return;
+                    }
+                }
+
+                redraw();
+            }
+
+            function redraw(){
+                ctx.clearRect(0,0,canvas.width,canvas.height);
+
+                ctx.fillStyle = bgColor;
+                ctx.fillRect(0,0,canvas.width,canvas.height);
+
+                ctx.fillStyle = squareColor;
+                ctx.fillRect(x,y,size,size);
+            }
+
+            function updateLives(){
+                document.getElementById("lives").innerText = lives;
+            }
+
+        </script>
+
+        <style>
+            canvas {
+                border: 2px solid black;
+            }
+        </style>
+    </head>
+
+    <body onload="init();">
+        <input type="color" id="colorPicker"></input>
+        <input type="range" id="sizeRange" min="10" max="60" value="20"></input>
+        <input type="color" id="bgPicker"></input>
+
+        <p>Жизни: <span id="lives"></span></p>
+        <p id="gameOver" style="color:red; font-size: 24px; ;"></p>
+
+        <br>
+
+        <canvas id="canvas" width="640" height="480"></canvas>
+    </body>
+</html>
