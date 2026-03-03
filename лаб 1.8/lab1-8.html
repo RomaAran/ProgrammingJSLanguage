@@ -1,0 +1,58 @@
+<html>
+    	<head>
+        <meta charset="UTF-8"></meta>
+        <title>Лабораторная работа 1.8</title>
+		<script>
+            var canvas, ctx;
+
+            function init(){
+                canvas = document.getElementById('canvas');
+                ctx = canvas.getContext('2d');
+
+                document.addEventListener('mousemove', showXY);
+                document.addEventListener('mouseup', handleUp);
+                document.addEventListener('mousedown', handleDown);
+                document.addEventListener('mousemove', handleMoved);
+                
+                ctx.strokeRect(0,0,640,480);
+            }
+
+            function showXY(event){
+                var x = event.offsetX;
+                var y = event.offsetY;
+
+                document.getElementById('x').value = 'x=' + x;
+                document.getElementById('y').value = 'y=' + y;
+            }
+
+            function handleDown(event){
+                isDown = true;
+            }
+            
+            function handleUp(event){
+                isDown = false;
+            }
+
+            function handleMoved(event){
+                if (!isDown){
+                    ctx.fillStyle = "blue";
+                } else {
+                    ctx.fillStyle = "red";
+                }
+
+                x = event.offsetX;
+                y = event.offsetY;
+                ctx.fillRect(x,y,20,20);
+            }
+        </script>
+    </head>
+
+    <body onload="init();">
+        <input type="text" id="x"></input>
+        <input type="text" id="y"></input>
+
+        <br>
+
+        <canvas id="canvas" width="640" height="480"></canvas>
+    </body>
+</html>
