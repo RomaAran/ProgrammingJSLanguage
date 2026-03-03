@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Лабораторная работа 1.9 - Вариант 3. Сетка</title>
+
+        <script>
+
+        var canvas;
+        var ctx;
+
+        function init(){
+            canvas = document.getElementById("canvas");
+            ctx = canvas.getContext("2d");
+
+            drawGrid();
+
+            document.addEventListener("keydown", changeNodes);
+        }
+
+        function drawGrid(){
+
+            var nodes = parseInt(document.getElementById("nodes").value);
+            var lineWidth = parseInt(document.getElementById("width").value);
+            var lineColor = document.getElementById("lineColor").value;
+            var bgColor = document.getElementById("bgColor").value;
+            var fill = document.getElementById("fill").checked;
+
+            ctx.clearRect(0,0,canvas.width,canvas.height);
+
+            if(fill){
+                ctx.fillStyle = bgColor;
+                ctx.fillRect(0,0,canvas.width,canvas.height);
+            } else{
+                ctx.fillStyle = "white";
+                ctx.fillRect(0,0,canvas.width,canvas.height);
+            }
+
+            if(nodes > 100) {nodes = 100;}
+            if(nodes < 1) {nodes = 1;}
+
+            ctx.strokeStyle = lineColor;
+            ctx.lineWidth = lineWidth;
+
+            var stepX = canvas.width / nodes;
+            var stepY = canvas.height / nodes;
+
+            for(var i = 0; i <= nodes; i++){
+
+                ctx.beginPath();
+                ctx.moveTo(i * stepX,0);
+                ctx.lineTo(i * stepX,canvas.height);
+                ctx.stroke();
+
+                ctx.beginPath();
+                ctx.moveTo(0,i * stepY);
+                ctx.lineTo(canvas.width,i * stepY);
+                ctx.stroke();
+            }
+        }
+
+        function changeNodes(event){
+
+            var nodesInput = document.getElementById("nodes");
+            var value = parseInt(nodesInput.value);
+            var max = parseInt(nodesInput.max);
+            var min = parseInt(nodesInput.min);
+
+            if(event.key == "+"){
+                if(value < max){
+                    nodesInput.value = value + 1;
+                    drawGrid();
+                }
+            }
+
+            if(event.key == "-"){
+                if(value > min){
+                    nodesInput.value = value - 1;
+                    drawGrid();
+                }
+            }
+        }
+
+        </script>
+
+    </head>
+
+    <body onload="init()">
+
+        Количество узлов (можно менять клавишами + и -)
+        <input type="number" id="nodes" value="10" min="1" max="100" onchange="drawGrid()">
+
+        <br>
+
+        Толщина линии
+        <input type="number" id="width" value="5" min="1" max="100" onchange="drawGrid()">
+
+        <br>
+
+        Цвет линии
+        <input type="color" id="lineColor" value="#000000" onchange="drawGrid()">
+
+        <br>
+
+        Цвет фона
+        <input type="color" id="bgColor" value="#ffffff" onchange="drawGrid()">
+
+        <br>
+
+        Заливка
+        <input type="checkbox" id="fill" checked onchange="drawGrid()">
+
+        <br>
+
+        <canvas id="canvas" width="600" height="600" style="border:1px solid black"></canvas>
+
+    </body>
+</html>
