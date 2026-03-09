@@ -1,0 +1,115 @@
+<html>
+    	<head>
+        <meta charset="UTF-8"></meta>
+        <title>Лабораторная работа 1.11</title>
+		<script>
+            var canvas, ctx;
+            var size = 50;
+            var squares = [{x:100, y:100, color:"red", baseColor:"red"}, {x:300, y:100, color:"blue", baseColor:"blue"}];
+            var active = -1;
+            var isPressed = false;
+            var dx = 0, dy = 0;
+
+            function init(){
+                canvas = document.getElementById("canvas");
+                ctx = canvas.getContext("2d");
+                
+                document.addEventListener('mousemove', drag);
+                document.addEventListener('mousedown', down);
+                document.addEventListener('mouseup', up);
+                document.addEventListener('keydown', changeColor);
+                
+                draw();
+            }
+
+            function draw(){
+                ctx.clearRect(0,0,canvas.width,canvas.height);
+                ctx.strokeRect(0,0,canvas.width,canvas.height);
+
+                for(let s of squares){
+                    ctx.fillStyle = s.color;
+                    ctx.fillRect(s.x,s.y,size,size);
+                }
+            }
+            
+            function down(event){
+                for(let i=0; i<squares.length; i++){
+
+                    let s = squares[i];
+
+                    if(
+                        event.offsetX > s.x &&
+                        event.offsetX < s.x+size &&
+                        event.offsetY > s.y &&
+                        event.offsetY < s.y+size
+                    ){
+
+                        active = i;
+                        dx = event.offsetX - s.x;
+                        dy = event.offsetY - s.y;
+                        isPressed = true;
+
+                        s.color = "gray";
+
+                        break;
+                    }
+                }
+            }
+
+            function up(event){
+                if(active!=-1){
+                    squares[active].color = squares[active].baseColor;
+                }
+
+                isPressed=false;
+                active = -1;
+
+                draw();
+            }
+
+            function drag(event){
+                 if(!isPressed || active==-1) return;
+
+                let nx = event.offsetX - dx;
+                let ny = event.offsetY - dy;
+
+                if(nx < 0) nx=0;
+                if(ny < 0) ny=0;
+                if(nx+size > canvas.width) nx = canvas.width-size;
+                if(ny+size > canvas.height) ny = canvas.height-size;
+
+                let other = active==0 ? 1 : 0;
+
+                if(!isOverlap(nx,ny,squares[other].x,squares[other].y)){
+                    squares[active].x = nx;
+                    squares[active].y = ny;
+                }
+
+                draw();
+            }
+
+            function isOverlap(x1,y1,x2,y2){
+                return !(x1+size <= x2 || x2+size <= x1 || y1+size <= y2 || y2+size <= y1);
+            }
+
+            function changeColor(event){
+                let color;
+
+                if(event.key=="1") color="blue";
+                if(event.key=="2") color="red";
+                if(event.key=="3") color="green";
+
+                if(color && active!=-1){
+                    squares[active].baseColor=color;
+                    squares[active].color=color;
+
+                    draw();
+                }
+            }
+        </script>
+    </head>
+
+    <body onload="init();">
+        <canvas id="canvas" width="800" height="400"></canvas>
+    </body>
+</html>
