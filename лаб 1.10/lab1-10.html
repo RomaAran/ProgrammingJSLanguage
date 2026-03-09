@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>Лабораторная работа 1.10</title>
+		<script>
+			function updateCorners(){
+                var n = document.getElementById("corners").value;
+                document.getElementById("cornersValue").innerText = n;
+            }
+            
+            function draw(){
+                var canvas = document.getElementById("canvas");
+                var ctx = canvas.getContext("2d");
+
+                ctx.setTransform(1,0,0,1,0,0);
+                ctx.clearRect(0,0,canvas.width,canvas.height);
+
+                ctx.translate(canvas.width/2, canvas.height/2);
+
+                var a = parseFloat(document.getElementById("a").value);
+                var b = parseFloat(document.getElementById("b").value);
+                var c = parseFloat(document.getElementById("c").value);
+                var d = parseFloat(document.getElementById("d").value);
+                var dx = parseFloat(document.getElementById("dx").value);
+                var dy = parseFloat(document.getElementById("dy").value);
+
+                ctx.setTransform(a, b, c, d, dx + canvas.width/2, dy + canvas.height/2);
+
+                var n = parseInt(document.getElementById("corners").value);
+                var R = 170;
+                var ugol = 2*3.1415926/n;
+                var alpha = 0;
+                var curX = R, curY = 0;
+                var red = document.getElementById("red").value;
+                var green = document.getElementById("green").value;
+                var blue = document.getElementById("blue").value;
+            
+                var color = "rgb(" + red + "," + green + "," + blue + ")";
+                
+                var fillOption = document.querySelector('input[name="fillOption"]:checked').value;
+
+                ctx.beginPath();
+                ctx.moveTo(curX, curY);
+
+                for (var i=1; i<=n; i++){
+                    alpha += ugol;
+                    curX = R*Math.cos(alpha);
+                    curY = R*Math.sin(alpha);
+                    ctx.lineTo(curX, curY);
+                }
+                
+                ctx.closePath();
+
+                if (fillOption === "yes") {
+                    ctx.fillStyle = color;
+                    ctx.fill();
+                }
+                
+                ctx.strokeStyle = color;
+                ctx.stroke();
+            }
+
+            function updateTransform(){
+                document.getElementById("aVal").innerText = document.getElementById("a").value;
+                document.getElementById("bVal").innerText = document.getElementById("b").value;
+                document.getElementById("cVal").innerText = document.getElementById("c").value;
+                document.getElementById("dVal").innerText = document.getElementById("d").value;
+                document.getElementById("dxVal").innerText = document.getElementById("dx").value;
+                document.getElementById("dyVal").innerText = document.getElementById("dy").value;
+            }
+		</script>
+    </head>
+
+    <body onload="draw();">
+		<h3>Преобразование:</h3>
+
+        a (гор. растяжение):
+        <input type="range" id="a" min="-3" max="3" step="0.1" value="1" oninput="updateTransform(); draw();">
+        <span id="aVal">1</span><br>
+
+        b (наклон Y):
+        <input type="range" id="b" min="-2" max="2" step="0.1" value="0" oninput="updateTransform(); draw();">
+        <span id="bVal">0</span><br>
+
+        c (наклон X):
+        <input type="range" id="c" min="-2" max="2" step="0.1" value="0" oninput="updateTransform(); draw();">
+        <span id="cVal">0</span><br>
+
+        d (верт. растяжение):
+        <input type="range" id="d" min="-3" max="3" step="0.1" value="1" oninput="updateTransform(); draw();">
+        <span id="dVal">1</span><br>
+
+        dx (сдвиг X):
+        <input type="range" id="dx" min="-300" max="300" step="1" value="0" oninput="updateTransform(); draw();">
+        <span id="dxVal">0</span><br>
+
+        dy (сдвиг Y):
+        <input type="range" id="dy" min="-300" max="300" step="1" value="0" oninput="updateTransform(); draw();">
+        <span id="dyVal">0</span><br><br>
+        
+        <input id="red" type="range" min="0" max="255" value="0" oninput="draw()"/>Красный<br>
+        <input id="green" type="range" min="0" max="255" value="0" oninput="draw()"/>Зеленый<br>
+        <input id="blue" type="range" min="0" max="255" value="0" oninput="draw()"/>Синий<br>
+        
+        <br>Заливка:<br>
+
+        <input type="radio" name="fillOption" value="no" checked onclick="draw()">
+        Без заливки<br>
+
+        <input type="radio" name="fillOption" value="yes" onclick="draw()">
+        С заливкой<br><br>
+
+        Количество углов:
+        <input type="range" id="corners" min="3" max="20" value="5" oninput="updateCorners(); draw();">
+        <span id="cornersValue">5</span>
+        <br><br>
+
+        <canvas id="canvas" width="512" height="512"></canvas>
+	</body>
+</html>
