@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>Лабораторная работа 1.12</title>
+        <script src="../jquery-3.5.1.js"></script>
+        <script>
+            $(document).ready(function(){
+
+            function updateVisibility() {
+                var effect = $("#effectSelect").val();
+                var speed = parseInt($("#speedInput").val()) || 400;
+
+                function applyEffect(selector, show) {
+                    switch(effect) {
+                        case "showhide":
+                            if(show) $(selector).show();
+                            else $(selector).hide();
+                            break;
+                        case "fade":
+                            if(show) $(selector).fadeIn(speed);
+                            else $(selector).fadeOut(speed);
+                            break;
+                        case "slide":
+                            if(show) $(selector).slideDown(speed);
+                            else $(selector).slideUp(speed);
+                            break;
+                    }
+                }
+
+                applyEffect(".platformer", $("#cb_platformer").is(":checked"));
+                applyEffect(".shooter", $("#cb_shooter").is(":checked"));
+                applyEffect(".rpg", $("#cb_rpg").is(":checked"));
+                applyEffect(".puzzle", $("#cb_puzzle").is(":checked"));
+            }
+
+            $("input[type=checkbox], #effectSelect, #speedInput").change(updateVisibility);
+
+            $(".platformer, .shooter, .rpg, .puzzle").hide();
+            });
+        </script>
+    </head>
+    
+    <body>
+        Выберите жанры:<br>
+        <label><input type="checkbox" id="cb_platformer"/> Платформеры</label><br>
+        <label><input type="checkbox" id="cb_shooter"/> Шутеры</label><br>
+        <label><input type="checkbox" id="cb_rpg"/> RPG</label><br>
+        <label><input type="checkbox" id="cb_puzzle"/> Головоломки</label><br>
+
+        Выберите способ появления / исчезновения:
+        <select id="effectSelect">
+            <option value="showhide">show / hide</option>
+            <option value="fade">fade</option>
+            <option value="slide">slide</option>
+        </select><br>
+
+        Скорость анимации (мс):
+        <input type="range" id="speedInput" value="400" min="50" max="1500" step="50"/><br>
+
+        <p class="rpg">Secret of Mana (SNES, 1993)</p>
+        <p class="shooter">Xevious (Arcade, 1982)</p>
+        <p class="rpg">Dragon Quest (NES, 1986)</p>
+        <p class="platformer">Alex Kidd in Miracle World (Master System, 1986)</p>
+        <p class="platformer">Rayman (SNES, 1995)</p>
+        <p class="shooter">R-Type (Arcade, 1987)</p>
+        <p class="rpg">EarthBound (SNES, 1994)</p>
+        <p class="shooter">1942 (Arcade, 1984)</p>
+        <p class="platformer">Donkey Kong (Arcade, 1981)</p>
+        <p class="rpg">Ultima IV (C64, 1985)</p>
+        <p class="shooter">TwinBee (NES, 1985)</p>
+        <p class="shooter">Contra (NES, 1987)</p>
+        <p class="platformer">DuckTales (NES, 1989)</p>
+        <p class="platformer">Super Mario Bros. (NES, 1985)</p>
+        <p class="rpg">Phantasy Star (Master System, 1987)</p>
+        <p class="puzzle">Columns (Sega Genesis, 1990)</p>
+        <p class="platformer">Sonic the Hedgehog (Sega Genesis, 1991)</p>
+        <p class="puzzle">Tetris (Game Boy, 1989)</p>
+        <p class="shooter">Gradius (NES, 1985)</p>
+        <p class="puzzle">Adventures of Lolo (NES, 1989)</p>
+        <p class="platformer">Castlevania (NES, 1986)</p>
+        <p class="shooter">Space Invaders (Arcade, 1978)</p>
+        <p class="rpg">Final Fantasy (NES, 1987)</p>
+        <p class="rpg">Chrono Trigger (SNES, 1995)</p>
+        <p class="puzzle">Lode Runner (NES, 1983)</p>
+        <p class="shooter">Galaga (Arcade, 1981)</p>
+        <p class="puzzle">Dr. Mario (NES, 1990)</p>
+        <p class="platformer">Mega Man 2 (NES, 1988)</p>
+        <p class="rpg">The Legend of Zelda (NES, 1986)</p>
+        <p class="puzzle">Puyo Puyo (Sega Mega Drive, 1991)</p>
+    </body>
+</html>
