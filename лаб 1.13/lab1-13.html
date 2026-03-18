@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>Лабораторная работа 1.13</title>
+        <script src="../jquery-3.5.1.js"></script>
+        <script>
+            var transparent = false;
+            var speed = 400;
+            
+            $(document).ready(function(){
+                $("#opacity").click(function(){
+                    if (transparent){
+                        $("#txt").animate({opacity: 1}, speed);
+                    } else {
+                        $("#txt").animate({opacity: 0.3}, speed);
+                    }
+                    transparent = !transparent;
+                });
+
+                $("#speed").on("input", function(){
+                    speed = parseInt($(this).val());
+                    $("#speedValue").text(speed);
+                });
+
+                $("#wide").click(function(){
+                    $("#txt").animate({width: "250px"}, speed); 
+                });
+
+                $("#slim").click(function(){
+                    $("#txt").animate({width: "50px"}, speed);
+                });
+
+                $("#tall").click(function(){
+                    $("#txt").animate({height: "250px"}, speed);
+                });
+
+                $("#low").click(function(){
+                    $("#txt").animate({height: "50px"}, speed);
+                });
+                $("#colorPicker").change(function(){
+                    $("#txt").css("background", $(this).val());
+                });
+
+                $("#moveRight").click(function(){
+                    $("#txt").animate({left: "+=50px"}, speed);
+                });
+
+                $("#moveLeft").click(function(){
+                    $("#txt").animate({left: "-=50px"}, speed);
+                });
+
+                $("#userText").on("input", function(){
+                    $("#textDemo").text($(this).val());
+                });
+
+                $("#bigText").click(function(){
+                    $("#textDemo").animate({fontSize:"40px"}, speed);
+                });
+
+                $("#smallText").click(function(){
+                    $("#textDemo").animate({fontSize:"16px"}, speed);
+                });
+            });
+        </script>
+    </head>
+    
+    <body>
+        <button id="wide">Широкий</button>
+        <button id="slim">Узкий</button>
+        <button id="tall">Высокий</button>
+        <button id="low">Низкий</button>
+
+        <br>
+
+        <input type="checkbox" id="opacity">
+        <label for="opacity">Прозрачный</label>
+
+        <br>
+
+        Цвет:
+        <input type="color" id="colorPicker" value="#ff0000"><br><br>
+
+        Скорость анимации (мс):
+        <input type="range" id="speed" min="100" max="2000" value="400">
+        <span id="speedValue">400</span><br><br>
+
+        <button id="moveRight">Вправо</button>
+        <button id="moveLeft">Влево</button>
+
+        Введите текст:
+        <input type="text" id="userText" value="Hello">
+        
+        <br><br>
+
+        <button id="bigText">Увеличить</button>
+        <button id="smallText">Уменьшить</button>
+
+        <div id="txt" style="background: red; height: 50px; width: 50px; position: relative; display: flex; align-items: center; justify-content: center; color:white; overflow: hidden;">
+        <span id="textDemo">Hello</span>
+        </div>
+    </body>
+</html>
