@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>Вариант 6 - Задание 2</title>
+		<script>
+			function validatePhone(){
+                var input = document.getElementById("phoneNumber");
+                var status = document.getElementById("status");
+                var value = input.value;
+                var isValid = false;
+
+                if (value.length == 0){
+                    input.style.backgroundColor = "";
+                    status.innerHTML = "";
+                    return;
+                }
+
+                if (value.length == 15){
+                    if (value[0] == "(" && value[4] == ")" && value[5] == "-" && value[9] == "-" && value[12] == "-"){
+                        isValid = checkDigits(value, [1,2,3,6,7,8,10,11,13,14])
+                    }
+                }
+                
+                if (value.length == 15){
+                    if (value[0] == "(" && value[5] == ")" && value[6] == "-" && value[9] == "-" && value[12] == "-"){
+                        isValid = checkDigits(value, [1,2,3,4,7,8,10,11,13,14])
+                    }
+                }
+
+                if (isValid){
+                    input.style.backgroundColor = "green";
+                    status.innerHTML = "✔";
+                } else {
+                    input.style.backgroundColor  = "red";
+                    status.innerHTML = "❌";
+                }
+            }
+
+            function checkDigits(str, indexes){
+                for (var i = 0; i < indexes.length; i++){
+                    var ch = str[indexes[i]];
+                    if (ch < '0' || ch > '9'){
+                        return false;
+                    }
+                }
+                return true;
+            }
+		</script>
+    </head>
+
+    <body>
+        <input type="text" id="phoneNumber" onkeyup="validatePhone()" placeholder="(XXX)-XXX-XX-XX / (XXXX)-XX-XX-XX" size="30">
+        <span id="status"></span>
+	</body>
+
+</html>

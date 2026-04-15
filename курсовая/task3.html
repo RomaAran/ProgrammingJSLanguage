@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>Вариант 6 - Задание 3</title>
+		<script>
+            function calculateDays(){
+                var date1 = document.getElementById("date1").value;
+                var date2 = document.getElementById("date2").value;
+
+                // преобразуем строки в даты
+                var d1 = new Date(date1);
+                var d2 = new Date(date2);
+
+                // разница в миллисекундах
+                var diff = Math.abs(d2 - d1);
+
+                // перевод в дни
+                var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+                document.getElementById("result").innerHTML = 
+                    "Количество дней: " + days;
+            }
+        </script>
+    </head>
+
+    <body>
+        <p>Выберите первую дату:</p>
+        <input type="date" id="date1">
+
+        <p>Выберите вторую дату:</p>
+        <input type="date" id="date2">
+
+        <br><br>
+
+        <button onclick="calculateDays()">Рассчитать</button>
+
+        <p id="result"></p>
+    </body>
+
+</html>

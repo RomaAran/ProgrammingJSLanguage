@@ -1,0 +1,40 @@
+<html>
+    
+	<head>
+        <meta charset="UTF-8"></meta>
+        <title>Вариант 6 - Задание 1</title>
+		<script>
+			function showDescription(){
+				var combo = document.getElementById("category");
+				var message = "";
+				
+				switch (combo.value){
+					case "A": message = "Мотоциклы"; break;
+					case "B": message = "Легковые автомобили"; break;
+					case "C": message = "Грузовые автомобили"; break;
+					case "D": message = "Автобусы"; break;
+					case "E": message = "Автомобили с прицепом"; break;
+				}
+				
+				alert("Транспортное средство: " + message);
+			
+			}
+		</script>
+    </head>
+
+    <body>
+       <select id="category">
+			<option value="A">Категория А</option>
+			<option value="B">Категория B</option>
+			<option value="C">Категория C</option>
+			<option value="D">Категория D</option>
+			<option value="E">Категория E</option>
+	    </select>
+		
+		<br>
+		<br>
+
+		<button onclick="showDescription()">Показать транспортное средство</button>
+	</body>
+
+</html>
