@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Лабораторная работа 2.1</title>
+		
+		<style></style>
+
+		<script src="../jquery-3.5.1.js"></script>
+        <script>
+            $(document).ready(function () {
+
+				function setMessage($field, message) {
+					let $label = $('#' + $field.attr('id') + 'mes');
+
+					$label.text(message);
+					$label.css('color', message ? 'red' : '');
+				}
+
+				function isEmpty(value) {
+					return $.trim(value).length === 0;
+				}
+
+				function validateName($field) {
+					let value = $field.val();
+
+					if (isEmpty(value)) {
+						setMessage($field, 'Поле не заполнено!');
+					} else if (value.length > 20) {
+						setMessage($field, 'Введено более 20 символов!');
+					} else if (/\d/.test(value)) {
+						setMessage($field, 'Введены цифры!');
+					} else {
+						setMessage($field, '');
+					}
+				}
+
+				function validateZip($field) {
+					let value = $field.val();
+
+					if (isEmpty(value)) {
+						setMessage($field, 'Поле не заполнено!');
+					} else if (value.length !== 6) {
+						setMessage($field, 'Длина не равна 6!');
+					} else if (/\D/.test(value)) {
+						setMessage($field, 'Введены не цифры!');
+					} else {
+						setMessage($field, '');
+					}
+				}
+
+				function validateEmail($field) {
+					let value = $field.val();
+					let emailRegex = /^\w+@\w+\.\w{2,4}$/;
+
+					if (isEmpty(value)) {
+						setMessage($field, 'Поле не заполнено!');
+					} else if (!emailRegex.test(value)) {
+						setMessage($field, 'Некорректно введен e-mail!');
+					} else {
+						setMessage($field, '');
+					}
+				}
+
+				function validatePhone($field) {
+					let value = $field.val();
+					let phoneRegex = /^8-\d{3}-\d{3}-\d{2}-\d{2}$/;
+
+					if (isEmpty(value)) {
+						setMessage($field, 'Поле не заполнено!');
+					} else if (!phoneRegex.test(value)) {
+						setMessage($field, 'Некорректно введен номер телефона!');
+					} else {
+						setMessage($field, '');
+					}
+				}
+
+				function validateDate($field) {
+					let value = $field.val();
+					let dateRegex = /^\d{2}(\/|\.)\d{2}(\/|\.)\d{4}$/;
+
+					if (isEmpty(value)) {
+						setMessage($field, 'Поле не заполнено!');
+					} else if (!dateRegex.test(value)) {
+						setMessage($field, 'Некорректно введена дата!');
+					} else {
+						let dd = parseInt(value.substring(0, 2), 10);
+						let mm = parseInt(value.substring(3, 5), 10);
+						let yyyy = parseInt(value.substring(6, 10), 10);
+
+						let daysInMonth = [31, (isLeapYear(yyyy) ? 29 : 28), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+						if (mm < 1 || mm > 12 || dd < 1 || dd > daysInMonth[mm - 1]) {
+							setMessage($field, 'Некорректные значения даты!');
+						} else {
+							setMessage($field, '');
+						}
+					}
+				}
+
+				function isLeapYear(year) {
+					return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+				}
+
+				$('#firstName').on('blur keyup', function () {
+					validateName($(this));
+				});
+
+				$('#surName').on('blur keyup', function () {
+					validateName($(this));
+				});
+
+				$('#zipCode').on('blur keyup', function () {
+					validateZip($(this));
+				});
+
+				$('#email').on('blur keyup', function () {
+					validateEmail($(this));
+				});
+
+				$('#phone').on('blur keyup', function () {
+					validatePhone($(this));
+				});
+
+				$('#birthDate').on('blur keyup', function () {
+					validateDate($(this));
+				});
+
+				$('#myForm').on('submit', function (e) {
+					validateName($('#firstName'));
+					validateName($('#surName'));
+					validateZip($('#zipCode'));
+					validateEmail($('#email'));
+					validatePhone($('#phone'));
+					validateDate($('#birthDate'));
+
+					 let hasErrors = $('span').filter(function () {
+						return $(this).text() !== '';
+					}).length > 0;
+
+					if (hasErrors) {
+						e.preventDefault();
+					} else {
+						alert('Отправлено!');
+					}
+				});
+			});
+        </script>
+	</head>
+	
+	<body>
+		<form id="myForm">	
+			Имя: <input type="text" id="firstName"/><br>
+			
+			<span id="firstNamemes"></span><br>
+			
+			Фамилия: <input type="text" id="surName"/><br>
+
+			<span id="surNamemes"></span><br>
+
+			Почтовый индекс: <input type="text" id="zipCode"/><br>
+
+			<span id="zipCodemes"></span><br>
+
+			E-mail: <input type="text" id="email"/><br>
+
+			<span id="emailmes"></span><br>
+
+			Телефон: <input type="text" id="phone"/><br>
+
+			<span id="phonemes"></span><br>
+
+			Дата рождения: <input type="text" id="birthDate"/><br>
+
+			<span id="birthDatemes"></span><br>
+
+			<button type="submit">Отправить</button>
+		</form>
+	</body>
+
+</html>
