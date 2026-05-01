@@ -1,0 +1,2 @@
+wwwroot\index.html
+C:\Users\roman\Documents\Языки программирования\lab2-6\lab2-6\wwwroot\index.html
