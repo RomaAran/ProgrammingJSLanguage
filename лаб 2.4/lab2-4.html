@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Лабораторная работа 2.4</title>
+        <script>
+            function time(date){
+                return "" + date.toLocaleTimeString();
+            }
+
+            function day(date){
+                return "" + date.toLocaleDateString();
+            }
+            
+            function Record(text,date){
+                this.text = text;
+                this.date = date;
+                this.time = function() {
+                    return this.date.toLocateTimeString();
+                }
+                this.day = function(){
+                    return this.date.toLocateDateString();
+                }
+            }
+
+            function showMorning(){
+                var filtered = records.filter(function(r){
+                    var h = r.date.getHours();
+                    return h >= 6 && h < 10;
+                });
+
+                displayRecords(filtered);
+            }
+
+            var records = [
+                new Record("Я проснулся!",new Date(2026, 4, 29, 12, 0, 0, 0)),
+                new Record("Кушаю...",new Date(2026, 4, 29, 12, 10, 0, 0)),
+                new Record("АЙ, МЫЛО В ГЛАЗ ПОПАЛО!!!",new Date(2026, 4, 29, 12, 25, 0, 0))
+            ]
+
+            function displayRecords(list = records){
+                var text = "";
+                var odd = true;
+
+                for (var i in list){
+                    if (odd){
+                        text += "<p style='background-color:gray'>";
+                    } else {
+                        text += "<p style='background-color:lightgray'>";
+                    }
+
+                    odd = !odd;
+                    text += time(list[i].date) + " ";
+                    text += "<strong>" + day(list[i].date) + "</strong><br>";
+                    text += list[i].text + "</p>";
+                }
+
+                document.getElementById("records_place").innerHTML = text;
+            }
+
+            function send(){
+                var r = new Record(document.getElementById("newtext").value, new Date());
+                records.push(r);
+                displayRecords();
+            }
+
+            function sort(compare){
+                var l = records.length;
+
+                for (var i = 0; i < l - 1; i++){
+                    var j_min = i;
+
+                    for (var j = i + 1; j < l; j++){
+                        if (compare(records[j],records[j_min])){
+                            j_min = j;
+                        }
+                    }
+                    var r = records[j_min];
+                    records[j_min] = records[i];
+                    records[i] = r;
+                }
+                displayRecords();
+            }
+
+            var comparers = [
+                function comp1(r1,r2) {
+                    return r1.date < r2.date;
+                },
+                function comp2(r1,r2) {
+                    return r1.date > r2.date;
+                },
+                function comp3(r1,r2) {
+                    return r1.text < r2.text;
+                },
+                function comp4(r1,r2) {
+                    return r1.text > r2.text;
+                }
+            ];
+            
+            function findAll(){
+                var query = document.getElementById("newtext").value.toLowerCase();
+
+                var filtered = records.filter(function(r){
+                    return r.text.toLowerCase().includes(query);
+                });
+
+                displayRecords(filtered);
+            }
+        </script>
+    </head>
+
+    <body onload="displayRecords()">
+        <div id="toolbar">
+            <input type="text" id="newtext"/>
+            <input type="button" value="Добавить запись" onclick="send()"/>
+            <input type="button" value="Найти" onclick="findAll()"/>
+            <input type="button" value="По дате ->" onclick="sort(comparers[0])"/>
+            <input type="button" value="По дате <-" onclick="sort(comparers[1])"/>
+            <input type="button" value="По алфавиту ->" onclick="sort(comparers[2])"/>
+            <input type="button" value="По алфавиту <-" onclick="sort(comparers[3])"/>
+            <input type="button" value="Показать утренние записи" onclick="showMorning()"/>
+        </div>
+
+        <div id="records_place"></div>
+    </body>
+
+</html>
