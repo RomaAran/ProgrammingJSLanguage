@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Лабораторная работа 2.7 - Время по часовому поясу</title>
+</head>
+<body>
+    <h2>Выберите часовой пояс</h2>
+
+    <form method="post" action="/time">
+        <select name="offset">
+
+            <option value="-12">UTC -12 (Бейкер / Хауленд)</option>
+            <option value="-10">UTC -10 (Гавайи)</option>
+            <option value="-8">UTC -8 (Лос-Анджелес)</option>
+            <option value="-5">UTC -5 (Нью-Йорк)</option>
+
+            <option value="0">UTC 0 (Лондон)</option>
+
+            <option value="1">UTC +1 (Берлин, Париж)</option>
+            <option value="2">UTC +2 (Киев, Афины)</option>
+            <option value="3">UTC +3 (Москва, Минск)</option>
+            <option value="4">UTC +4 (Дубай)</option>
+            <option value="5">UTC +5 (Пакистан)</option>
+
+            <option value="5.5">UTC +5:30 (Индия)</option>
+
+            <option value="7">UTC +7 (Бангкок)</option>
+            <option value="8">UTC +8 (Пекин, Сингапур)</option>
+            <option value="9">UTC +9 (Токио, Сеул)</option>
+
+            <option value="10">UTC +10 (Сидней)</option>
+            <option value="12">UTC +12 (Окленд)</option>
+
+        </select>
+
+        <button type="submit">Показать время</button>
+    </form>
+</body>
+</html>
