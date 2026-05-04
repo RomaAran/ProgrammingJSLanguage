@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Лабораторная работа 2.5 - Задания 1 и 2</title>
+        <script>
+            function showDescription() {
+                var radios = document.getElementsByName("category");
+                var value = "";
+
+                for (var i = 0; i < radios.length; i++) {
+                    if (radios[i].checked) {
+                        value = radios[i].value;
+                    }
+                }
+
+                var message = "";
+
+                switch (value) {
+                    case "A": message = "Мотоциклы"; break;
+                    case "B": message = "Легковые автомобили"; break;
+                    case "C": message = "Грузовые автомобили"; break;
+                    case "D": message = "Автобусы"; break;
+                    case "E": message = "Автомобили с прицепом"; break;
+                }
+
+                alert("Транспортное средство: " + message);
+            }
+        </script>
+    </head>
+
+    <body>
+        <input type="radio" name="category" value="A">Категория A<br>
+        <input type="radio" name="category" value="B">Категория B<br>
+        <input type="radio" name="category" value="C">Категория C<br>
+        <input type="radio" name="category" value="D">Категория D<br>
+        <input type="radio" name="category" value="E">Категория E<br>
+
+        <br>
+
+        <button onclick="showDescription()">Показать транспортное средство</button>
+
+    </body>
+
+</html>
