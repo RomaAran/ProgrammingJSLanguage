@@ -1,0 +1,4 @@
+wwwroot\jquery-3.5.1.js
+wwwroot\index.html
+C:\Users\roman\Documents\Языки программирования\lab2-8\lab2-8\wwwroot\jquery-3.5.1.js
+C:\Users\roman\Documents\Языки программирования\lab2-8\lab2-8\wwwroot\index.html

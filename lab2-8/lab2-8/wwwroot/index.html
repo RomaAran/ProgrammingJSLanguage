@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Лабораторная работа 2.8 - AJAX-калькулятор</title>
+        <script src="../jquery-3.5.1.js"></script>
+
+        <script>
+            <script src="../jquery-3.5.1.js"></script>
+
+        <script>
+            $(document).ready(function () {
+
+                $("#calc").click(function () {
+
+                    let a = parseFloat($("#a").val());
+                    let b = parseFloat($("#b").val());
+                    let op = $("#op").val();
+
+                    $.ajax({
+                        url: "/calculate",
+                        type: "POST",
+                        contentType: "application/json",
+
+                        data: JSON.stringify({
+                            a: a,
+                            b: b,
+                            op: op
+                        }),
+
+                        success: function (response) {
+                            $("#result").text("Результат: " + response.result);
+                        },
+
+                        error: function () {
+                            $("#result").text("Ошибка вычисления");
+                        }
+                    });
+
+                });
+
+            });
+        </script>
+    </head>
+    
+    <body>
+        <input type="number" id="a" placeholder="Число A">
+        <input type="number" id="b" placeholder="Число B">
+
+        <select id="op">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+
+        <button id="calc">Посчитать</button>
+
+        <h3 id="result"></h3>
+
+    </body>
+
+</html>
