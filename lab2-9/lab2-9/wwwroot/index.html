@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Лабораторная работа 2.9</title>
+        
+        <script src="../jquery-3.5.1.js"></script>
+
+        <script>
+
+            function time(date) {
+                return new Date(date).toLocaleTimeString();
+            }
+
+            function day(date) {
+                return new Date(date).toLocaleDateString();
+            }
+
+            function displayRecords(list) {
+
+                var text = "";
+                var odd = true;
+
+                for (var i in list) {
+
+                    if (odd) {
+                        text += "<p style='background-color:gray; padding:10px'>";
+                    }
+                    else {
+                        text += "<p style='background-color:lightgray; padding:10px'>";
+                    }
+
+                    odd = !odd;
+
+                    text += time(list[i].date) + " ";
+                    text += "<strong>" + day(list[i].date) + "</strong><br>";
+
+                    text += list[i].text + "</p>";
+                }
+
+                document.getElementById("records_place").innerHTML = text;
+            }
+
+            function loadRecords() {
+
+                $.get("/records", function (data) {
+                    displayRecords(data);
+                });
+
+            }
+
+            function send() {
+
+                let text = $("#newtext").val();
+
+                $.ajax({
+
+                    url: "/add",
+                    type: "POST",
+                    contentType: "application/json",
+
+                    data: JSON.stringify({
+                        text: text
+                    }),
+
+                    success: function (data) {
+
+                        $("#newtext").val("");
+
+                        displayRecords(data);
+                    },
+
+                    error: function () {
+                        alert("Ошибка!");
+                    }
+
+                });
+
+            }
+
+
+        </script>
+    </head>
+    
+    <body onload="loadRecords()">
+        <div id="toolbar">
+
+            <input type="text"
+                   id="newtext"
+                   placeholder="Введите запись" />
+
+            <input type="button"
+                   value="Добавить запись"
+                   onclick="send()" />
+
+        </div>
+
+        <hr>
+
+        <div id="records_place"></div>
+    </body>
+
+</html>
