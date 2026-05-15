@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDB7EFF-DFB7-495C-A7FD-434949CE2BF7}|lab2-10\\lab2-10.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDB7EFF-DFB7-495C-A7FD-434949CE2BF7}|lab2-10\\lab2-10.csproj|solutionrelative:lab2-10\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDB7EFF-DFB7-495C-A7FD-434949CE2BF7}|lab2-10\\lab2-10.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BDB7EFF-DFB7-495C-A7FD-434949CE2BF7}|lab2-10\\lab2-10.csproj|solutionrelative:lab2-10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDB7EFF-DFB7-495C-A7FD-434949CE2BF7}|lab2-10\\lab2-10.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\wwwroot\\reg.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDB7EFF-DFB7-495C-A7FD-434949CE2BF7}|lab2-10\\lab2-10.csproj|solutionrelative:lab2-10\\wwwroot\\reg.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BDB7EFF-DFB7-495C-A7FD-434949CE2BF7}|lab2-10\\lab2-10.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BDB7EFF-DFB7-495C-A7FD-434949CE2BF7}|lab2-10\\lab2-10.csproj|solutionrelative:lab2-10\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "lab2-10\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\wwwroot\\index.html",
+              "RelativeToolTip": "lab2-10\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-15T20:02:00.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\Program.cs",
+              "RelativeDocumentMoniker": "lab2-10\\Program.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\Program.cs",
+              "RelativeToolTip": "lab2-10\\Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAlwEQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T19:53:37.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.html",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\wwwroot\\login.html",
+              "RelativeDocumentMoniker": "lab2-10\\wwwroot\\login.html",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\wwwroot\\login.html",
+              "RelativeToolTip": "lab2-10\\wwwroot\\login.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-15T19:53:31.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "reg.html",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\wwwroot\\reg.html",
+              "RelativeDocumentMoniker": "lab2-10\\wwwroot\\reg.html",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-10\\lab2-10\\wwwroot\\reg.html",
+              "RelativeToolTip": "lab2-10\\wwwroot\\reg.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-15T19:53:05.604Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+wwwroot\login.html
+wwwroot\reg.html
+wwwroot\index.html
+C:\Users\roman\Documents\Языки программирования\lab2-10\lab2-10\wwwroot\login.html
+C:\Users\roman\Documents\Языки программирования\lab2-10\lab2-10\wwwroot\reg.html
+C:\Users\roman\Documents\Языки программирования\lab2-10\lab2-10\wwwroot\index.html
