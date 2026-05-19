@@ -1,0 +1,17 @@
+﻿@model List<lab2_11.Models.DB.Book>
+
+<h2>Книги автора</h2>
+
+@if (Model.Count == 0)
+{
+    <p>Книги не найдены</p>
+}
+else
+{
+    <ul>
+        @foreach (var b in Model)
+        {
+            <li>@b.Title (@b.Pages стр., @b.Publisher)</li>
+        }
+    </ul>
+}

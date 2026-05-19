@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\views\\books\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\views\\books\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\views\\books\\authors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\views\\books\\authors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\views\\books\\booksbyauthor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\views\\books\\booksbyauthor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\views\\books\\booksbyauthor.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\views\\books\\booksbyauthor.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\data\\lab2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\data\\lab2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\models\\db\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\models\\db\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\views\\books\\authors.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\views\\books\\authors.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\views\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\views\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\views\\books\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\views\\books\\search.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\wwwroot\\htmlpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\wwwroot\\htmlpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\lab2-11.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F94C103-B0B7-80EB-09B3-0D6A81779EE0}|lab2-11\\lab2-11.csproj|solutionrelative:lab2-11\\lab2-11.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Search.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Search.cshtml.cs",
+              "RelativeDocumentMoniker": "lab2-11\\Views\\Books\\Search.cshtml.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Search.cshtml.cs",
+              "RelativeToolTip": "lab2-11\\Views\\Books\\Search.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:10:15.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BooksByAuthor.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\BooksByAuthor.cshtml.cs",
+              "RelativeDocumentMoniker": "lab2-11\\Views\\Books\\BooksByAuthor.cshtml.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\BooksByAuthor.cshtml.cs",
+              "RelativeToolTip": "lab2-11\\Views\\Books\\BooksByAuthor.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:10:08.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Authors.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Authors.cshtml",
+              "RelativeDocumentMoniker": "lab2-11\\Views\\Books\\Authors.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Authors.cshtml",
+              "RelativeToolTip": "lab2-11\\Views\\Books\\Authors.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T18:09:44.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksByAuthor.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\BooksByAuthor.cshtml",
+              "RelativeDocumentMoniker": "lab2-11\\Views\\Books\\BooksByAuthor.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\BooksByAuthor.cshtml",
+              "RelativeToolTip": "lab2-11\\Views\\Books\\BooksByAuthor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T18:08:52.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Search.cshtml",
+              "RelativeDocumentMoniker": "lab2-11\\Views\\Books\\Search.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Search.cshtml",
+              "RelativeToolTip": "lab2-11\\Views\\Books\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T18:07:43.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "lab2-11\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "lab2-11\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T17:54:11.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "lab2-11\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "lab2-11\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:42:58.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Models\\DB\\Book.cs",
+              "RelativeDocumentMoniker": "lab2-11\\Models\\DB\\Book.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Models\\DB\\Book.cs",
+              "RelativeToolTip": "lab2-11\\Models\\DB\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:38:14.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Lab2Context.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Data\\Lab2Context.cs",
+              "RelativeDocumentMoniker": "lab2-11\\Data\\Lab2Context.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Data\\Lab2Context.cs",
+              "RelativeToolTip": "lab2-11\\Data\\Lab2Context.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:13:30.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Authors.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Authors.cshtml.cs",
+              "RelativeDocumentMoniker": "lab2-11\\Views\\Books\\Authors.cshtml.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Authors.cshtml.cs",
+              "RelativeToolTip": "lab2-11\\Views\\Books\\Authors.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:11:44.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "lab2-11\\Views\\Books\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Views\\Books\\Create.cshtml.cs",
+              "RelativeToolTip": "lab2-11\\Views\\Books\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:12:14.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Program.cs",
+              "RelativeDocumentMoniker": "lab2-11\\Program.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\Program.cs",
+              "RelativeToolTip": "lab2-11\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvyEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:47:14.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "lab2-11.csproj",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\lab2-11.csproj",
+              "RelativeDocumentMoniker": "lab2-11\\lab2-11.csproj",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\lab2-11.csproj",
+              "RelativeToolTip": "lab2-11\\lab2-11.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-17T17:15:17.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "htmlpage.html",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\wwwroot\\htmlpage.html",
+              "RelativeDocumentMoniker": "lab2-11\\wwwroot\\htmlpage.html",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-11\\lab2-11\\wwwroot\\htmlpage.html",
+              "RelativeToolTip": "lab2-11\\wwwroot\\htmlpage.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-17T17:21:27.345Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

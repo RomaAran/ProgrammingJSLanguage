@@ -1,0 +1,14 @@
+﻿@model lab2_11.Views.Books.Create
+@{
+}
+<h2>Добавить книгу</h2>
+
+<form method="post">
+    <input name="Title" placeholder="Название" />
+    <input name="Author" placeholder="Автор" />
+    <input name="Pages" type="number" placeholder="Кол-во страниц"/>
+    <input name="Publisher" placeholder="Издатель" />
+    <button type="submit">Добавить</button>
+</form>
+
+<a href="/Books/Search">Поиск книг</a>
