@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Лабораторная работа 2.3</title>
+
+		<script src="../jquery-3.5.1.js"></script>
+
+		<style>
+			table {
+				border-collapse: collapse;
+				width: 600px;
+				margin-top: 20px;
+				border: 1px solid black;
+			}
+
+			td, th {
+				padding: 10px;
+				color: black;
+				border: 1px solid black;
+			}
+
+			thead tr {
+				background-color: dimgray;
+				color: white;
+			}
+
+			tbody tr:nth-child(odd) {
+				background-color: lightgray;
+			}
+
+			tbody tr:nth-child(even) {
+				background-color: gray;
+			}
+
+			span {
+				color: red;
+			}
+		</style>
+
+		<script>
+
+			$(document).ready(function () {
+
+				function setMessage($field, message) {
+					let $label = $('#' + $field.attr('id') + 'mes');
+
+					$label.text(message);
+
+					checkForm();
+				}
+
+				function isEmpty(value) {
+					return $.trim(value).length === 0;
+				}
+
+				function validateName($field) {
+
+					let value = $field.val();
+
+					if (isEmpty(value)) {
+						setMessage($field, 'Поле не заполнено!');
+					}
+					else if (value.length > 20) {
+						setMessage($field, 'Более 20 символов!');
+					}
+					else if (/\d/.test(value)) {
+						setMessage($field, 'Есть цифры!');
+					}
+					else {
+						setMessage($field, '');
+					}
+				}
+
+				function validateEmail($field) {
+
+					let value = $field.val();
+
+					let emailRegex = /^\w+@\w+\.\w{2,4}$/;
+
+					if (isEmpty(value)) {
+						setMessage($field, 'Поле не заполнено!');
+					}
+					else if (!emailRegex.test(value)) {
+						setMessage($field, 'Некорректный email!');
+					}
+					else {
+						setMessage($field, '');
+					}
+				}
+
+				function validatePhone($field) {
+
+					let value = $field.val();
+
+					let phoneRegex = /^8-\d{3}-\d{3}-\d{2}-\d{2}$/;
+
+					if (isEmpty(value)) {
+						setMessage($field, 'Поле не заполнено!');
+					}
+					else if (!phoneRegex.test(value)) {
+						setMessage($field, 'Формат: 8-XXX-XXX-XX-XX');
+					}
+					else {
+						setMessage($field, '');
+					}
+				}
+
+				function validateDate($field) {
+
+				let value = $field.val();
+
+				let dateRegex = /^\d{2}(\/|\.)\d{2}(\/|\.)\d{4}$/;
+
+				if (isEmpty(value)) {
+					setMessage($field, 'Поле не заполнено!');
+				}
+				else if (!dateRegex.test(value)) {
+					setMessage($field, 'Некорректная дата!');
+				}
+				else {
+
+					let parts = value.split(/[\/.]/);
+
+					let day = parseInt(parts[0]);
+					let month = parseInt(parts[1]);
+					let year = parseInt(parts[2]);
+
+					let daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+					if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+						daysInMonth[1] = 29;
+					}
+
+					if (
+						month < 1 ||
+						month > 12 ||
+						day < 1 ||
+						day > daysInMonth[month - 1]
+					) {
+						setMessage($field, 'Некорректная дата!');
+					}
+					else {
+						setMessage($field, '');
+					}
+				}
+			}
+
+				function checkForm() {
+
+					let hasErrors = $('span').filter(function () {
+						return $(this).text() !== '';
+					}).length > 0;
+
+					let allFilled =
+						$('#firstName').val() &&
+						$('#surName').val() &&
+						$('#email').val() &&
+						$('#phone').val() &&
+						$('#birthDate').val();
+
+					$('#send').prop('disabled', hasErrors || !allFilled);
+				}
+
+				$('#firstName').on('keyup blur', function () {
+					validateName($(this));
+				});
+
+				$('#surName').on('keyup blur', function () {
+					validateName($(this));
+				});
+
+				$('#email').on('keyup blur', function () {
+					validateEmail($(this));
+				});
+
+				$('#phone').on('keyup blur', function () {
+					validatePhone($(this));
+				});
+
+				$('#birthDate').on('keyup blur', function () {
+					validateDate($(this));
+				});
+
+				$('#myForm').on('submit', function (e) {
+
+					e.preventDefault();
+
+					let firstName = $('#firstName').val();
+					let surName = $('#surName').val();
+					let email = $('#email').val();
+					let phone = $('#phone').val();
+					let birthDate = $('#birthDate').val();
+
+				$('#resultTable tbody').append(`
+					<tr>
+						<td>${surName}</td>
+						<td>${firstName}</td>
+						<td>${birthDate}</td>
+						<td>${email}</td>
+						<td>${phone}</td>
+					</tr>
+				`);
+
+					alert('Запись добавлена!');
+
+					$('#myForm')[0].reset();
+
+					$('span').text('');
+
+					$('#send').prop('disabled', true);
+				});
+
+				$('#send').prop('disabled', true);
+
+			});
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<form id="myForm">
+
+			Фамилия:
+			<input type="text" id="surName">
+			<span id="surNamemes"></span>
+			<br>
+			
+			Имя:
+			<input type="text" id="firstName">
+			<span id="firstNamemes"></span>
+			<br>
+
+			E-mail:
+			<input type="text" id="email">
+			<span id="emailmes"></span>
+			<br>
+
+			Телефон:
+			<input type="text" id="phone">
+			<span id="phonemes"></span>
+			<br>
+
+			Дата рождения:
+			<input type="text" id="birthDate">
+			<span id="birthDatemes"></span>
+			<br>
+
+			<button type="submit" id="send">
+				Добавить запись
+			</button>
+
+		</form>
+
+		<table id="resultTable">
+
+			<thead>
+				<tr>
+					<th>Фамилия</th>
+					<th>Имя</th>
+					<th>Email</th>
+					<th>Телефон</th>
+					<th>Дата рождения</th>
+				</tr>
+			</thead>
+
+			<tbody>
+
+				<tr>
+					<td>Сидоров</td>
+					<td>Василий</td>
+					<td>12.10.2001</td>
+					<td>login@server.ru</td>
+					<td>8-923-111-22-07</td>
+				</tr>
+
+				<tr>
+					<td>Васильев</td>
+					<td>Андрей</td>
+					<td>09.11.1999</td>
+					<td>andrey@host.com</td>
+					<td>8-111-666-21-23</td>
+				</tr>
+
+				<tr>
+					<td>Филиппова</td>
+					<td>Анна</td>
+					<td>04.02.1987</td>
+					<td>anna@supermail.ru</td>
+					<td>8-456-234-21-43</td>
+				</tr>
+
+			</tbody>
+
+		</table>
+
+	</body>
+
+</html>
