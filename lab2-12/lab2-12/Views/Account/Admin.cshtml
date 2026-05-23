@@ -1,0 +1,32 @@
+﻿@model List<lab2_12.Models.User>
+
+<h2>Админ панель</h2>
+
+@foreach (var user in Model)
+{
+    <form action="/Account/UpdateBalance" method="post">
+
+        <p>@user.Login</p>
+
+        <input type="hidden" name="id" value="@user.Id" />
+
+        <input type="number"
+               step="0.01"
+               name="balance"
+               value="@user.Balance" />
+
+        <button type="submit">
+            Установить новое значение
+        </button>
+
+    </form>
+
+    <hr />
+}
+
+<br />
+
+<a href="/Account/Index">Назад в аккаунт</a>
+<br />
+<br />
+<a href="/Account/Logout">Выход</a>

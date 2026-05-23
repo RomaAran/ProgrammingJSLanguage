@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\transfer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\transfer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\viewmodels\\transferviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\viewmodels\\transferviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\viewmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\viewmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\viewmodels\\adminconfirmviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\viewmodels\\adminconfirmviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\data\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\data\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\adminconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\adminconfirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\admin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|c:\\users\\roman\\documents\\\u044F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\views\\account\\transfer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40E4DFAF-1863-AAB3-7657-5C6CE8A44F40}|lab2-12\\lab2-12.csproj|solutionrelative:lab2-12\\views\\account\\transfer.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "lab2-12\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "lab2-12\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAuwM0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:12:23.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-23T08:16:42.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-23T08:14:35.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "lab2-12\\ViewModels\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "lab2-12\\ViewModels\\ChangePasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:11:12.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "lab2-12\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "lab2-12\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:09:30.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-23T08:14:18.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Transfer.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Transfer.cshtml",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\Transfer.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Transfer.cshtml",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\Transfer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-23T08:16:26.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-23T08:13:57.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransferViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\TransferViewModel.cs",
+              "RelativeDocumentMoniker": "lab2-12\\ViewModels\\TransferViewModel.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\TransferViewModel.cs",
+              "RelativeToolTip": "lab2-12\\ViewModels\\TransferViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:10:24.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminConfirmViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\AdminConfirmViewModel.cs",
+              "RelativeDocumentMoniker": "lab2-12\\ViewModels\\AdminConfirmViewModel.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\AdminConfirmViewModel.cs",
+              "RelativeToolTip": "lab2-12\\ViewModels\\AdminConfirmViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:11:38.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\User.cs",
+              "RelativeDocumentMoniker": "lab2-12\\ViewModels\\User.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\User.cs",
+              "RelativeToolTip": "lab2-12\\ViewModels\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:15:10.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "lab2-12\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "lab2-12\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:08:51.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Program.cs",
+              "RelativeDocumentMoniker": "lab2-12\\Program.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Program.cs",
+              "RelativeToolTip": "lab2-12\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:17:42.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LabContext.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Data\\LabContext.cs",
+              "RelativeDocumentMoniker": "lab2-12\\Data\\LabContext.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Data\\LabContext.cs",
+              "RelativeToolTip": "lab2-12\\Data\\LabContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:19:36.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminConfirm.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\AdminConfirm.cshtml",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\AdminConfirm.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\AdminConfirm.cshtml",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\AdminConfirm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-23T09:43:29.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Admin.cshtml",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Admin.cshtml",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-23T08:17:01.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:18:36.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\appsettings.json",
+              "RelativeDocumentMoniker": "lab2-12\\appsettings.json",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\appsettings.json",
+              "RelativeToolTip": "lab2-12\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-23T08:21:34.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:18:06.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Transfer.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Transfer.cshtml.cs",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\Transfer.cshtml.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Transfer.cshtml.cs",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\Transfer.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:19:30.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Admin.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Admin.cshtml.cs",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\Admin.cshtml.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\Admin.cshtml.cs",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\Admin.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:24:24.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ChangePassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\ChangePassword.cshtml.cs",
+              "RelativeDocumentMoniker": "lab2-12\\Views\\Account\\ChangePassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\roman\\Documents\\\u042F\u0437\u044B\u043A\u0438 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\lab2-12\\lab2-12\\Views\\Account\\ChangePassword.cshtml.cs",
+              "RelativeToolTip": "lab2-12\\Views\\Account\\ChangePassword.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T08:17:21.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

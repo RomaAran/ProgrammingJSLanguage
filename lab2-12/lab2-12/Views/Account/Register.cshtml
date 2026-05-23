@@ -1,0 +1,38 @@
+﻿@model lab2_12.Models.ViewModels.RegisterViewModel
+
+<h2>Регистрация</h2>
+
+<form action="/Account/Register" method="post">
+
+    <div>
+        <label>Логин</label>
+        <input type="text" name="Login" />
+    </div>
+
+    <br />
+
+    <div>
+        <label>Пароль</label>
+        <input type="password" name="Password" />
+    </div>
+
+    <br />
+
+    <div>
+        <label>Подтверждение пароля</label>
+        <input type="password" name="ConfirmPassword" />
+    </div>
+
+    <br />
+
+    <button type="submit">
+        Зарегистрироваться
+    </button>
+
+</form>
+
+<br />
+
+<a href="/Account/Login">
+    Уже есть аккаунт
+</a>

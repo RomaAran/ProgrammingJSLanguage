@@ -1,0 +1,31 @@
+﻿@model lab2_12.Models.ViewModels.LoginViewModel
+
+<h2>Вход</h2>
+
+<form action="/Account/Login" method="post">
+
+    <div>
+        <label>Логин</label>
+        <input type="text" name="Login" />
+    </div>
+
+    <br />
+
+    <div>
+        <label>Пароль</label>
+        <input type="password" name="Password" />
+    </div>
+
+    <br />
+
+    <button type="submit">
+        Войти
+    </button>
+
+</form>
+
+<br />
+
+<a href="/Account/Register">
+    Регистрация
+</a>

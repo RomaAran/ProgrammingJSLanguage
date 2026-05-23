@@ -1,0 +1,21 @@
+﻿<h2>Перевод</h2>
+
+<form action="/Account/Transfer" method="post">
+
+    <div>
+        <label>Логин получателя</label>
+        <input type="text" name="ReceiverLogin" />
+    </div>
+
+    <div>
+        <label>Сумма</label>
+        <input type="number" step="0.01" name="Amount" />
+    </div>
+
+    <button type="submit">Перевести</button>
+
+</form>
+
+<br />
+
+<a href="/Account/Index">Назад</a>
